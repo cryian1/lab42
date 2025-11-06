@@ -7,9 +7,9 @@ void main()
 
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	printf("¬ведите первое число = ");
+	printf("¬ведите первое = ");
 	scanf_s("%d", &a);
-	printf("¬ведите второе число= ");
+	printf("¬ведите второе число = ");
 	scanf_s("%d", &b);
 	if (a < b) {
 		min = a;
